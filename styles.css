@@ -16,15 +16,17 @@
 
 .menu-container:hover #menu {
     background-color: white;
-    transition: .35s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .menu-container:hover #menu::after{
     transform:translatey(-20px) rotate(-45deg) ;
+    transition: .35s ease-in-out;
 }
 
 .menu-container:hover #menu::before{
     transform:translatey(20px) rotate(45deg);
+    transition: .35s ease-in-out;
 
 }
 
